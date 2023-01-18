@@ -1,0 +1,186 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.brand-color{
+        color: orangered;
+}
+
+/* Banner Section */
+.banner{
+        height: 100vh;
+        background-image: url("./images/banner/banner1.png");
+        background-size: cover;
+}
+
+.banner-content{
+        padding-right: 10%;
+        text-align: end;
+        padding-top: 10%;
+}
+
+.headline{
+        font-size: 36px;
+        font-weight: bold;
+}
+
+.summary{
+        margin-top: 10px;
+        line-height:25px;
+}
+
+.btn-section{
+        margin-top: 10px;
+}
+.brand-btn{
+        background-color: orangered;
+        border-radius: 5px;
+        border: 2px solid orangered;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: bold;
+        color: white
+}
+
+/* Middle Section */
+.middle-headline{
+        font-size: 26px;
+        font-weight: bold;
+}
+.middle-section{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.image{
+        height: 80%;
+        width: 80%;
+}
+.middle-summary{
+        padding-top: 15px;
+        line-height: 27px;
+}
+
+/* Planning Section */
+.plan-title{
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;  
+        padding-bottom: 50px;
+}
+.planning{
+        margin-top: 80px;
+}
+
+.single-plan{
+        text-align: center;
+        line-height: 1.8em;
+        padding: 10px 65px;
+}
+
+.planning-details{
+        display: flex;
+        justify-content: center;
+}
+
+/* Mindset Section */
+.mindset{
+        margin: 8% 10%;
+        height: 250px;
+        background-image:
+        linear-gradient(45deg,
+          rgba(252, 70, 4, 0.664),
+          rgba(255, 253, 252, 0.118)), url('./images/watch.png');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-position-x: center;
+          border-radius: 10px;
+}
+
+.mindset-text{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 8%;
+        line-height: 45px;
+}
+
+.mindset-headline{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+}
+
+.mindset-btn{
+        background-color: white;
+        border-radius: 5px;
+        border: 2px solid white;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: bold;
+        color: orangered;  
+}
+
+/* Mission 2023 Section Css */
+.mission-title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 26px;
+}
+
+.mission-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 50px;
+}
+
+.single-mission{
+        width: 30%;
+        padding: 20px;
+        text-align: center;
+        padding-top: 40px;
+}
+
+.mission-img{
+        width: 90%;
+        height: 250px;
+        border-radius: 5px;
+        padding-bottom: 40px;
+}
+
+/* Footer Section Css */
+footer{
+        width: 100%;
+        padding: 8% 13%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+}
+
+.contact{
+        line-height: 50px;
+}
+
+.footer-content{
+        line-height: 25px;
+}
+
+.social-icon{
+        cursor: pointer;
+        padding: 10px 10px;
+        width: 60px;
+}
+
+input{
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 2px solid white;
+        margin: 15px 0;
+}
